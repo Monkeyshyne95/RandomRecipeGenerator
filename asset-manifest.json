@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/RandomRecipeGenerator/static/js/main.7c4442ff.js",
+    "index.html": "/RandomRecipeGenerator/index.html",
+    "main.7c4442ff.js.map": "/RandomRecipeGenerator/static/js/main.7c4442ff.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7c4442ff.js"
+  ]
+}
