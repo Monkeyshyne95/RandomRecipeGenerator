@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+section[ref="searchRef"] {
+  background: linear-gradient(to bottom, #00b8d4, #0052cc);
+  padding: 20px 0;
+  height: 100vh;
+}
+
+section[ref="searchRef"] {
+  background: #00b8d4;
+  padding: 20px 0;
+  height: 100vh;
+}
+
+h1, button {
+  font-family: 'Roboto', sans-serif;
+}
