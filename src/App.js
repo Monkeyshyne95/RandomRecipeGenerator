@@ -117,7 +117,7 @@ const LandingPage = () => {
       {/* Bottom Section */}
       <section ref={detailsRef}>
         <div style={{ display: 'flex' }}>
-        <div style={{ height: '100vh',width: '50%', background: '#69747C', overflow: 'hidden' }}>
+        <div style={{width: '50%', background: '#69747C', overflow: 'hidden' }}>
             <h1 style={{ textAlign: 'center' , fontFamily:'Expressway' }}>Instructions:</h1>
             {instructions && <MealInstructions instructions={instructions.strInstructions} />}
             {link && (
@@ -128,7 +128,7 @@ const LandingPage = () => {
                     <button onClick={handleScrollBack} style={{ paddingTop: '20px', paddingBottom: '20px', width: '50%', marginLeft:'auto', marginRight:'auto', display:'block' , fontFamily:'Expressway'}}>Back to recipe generator</button>
 
           </div>
-          <div style={{ height: '100vh',width: '50%', background: '#6BAA75', overflow: 'hidden',  padding: '0 20px', fontFamily:'Expressway', textAlign:'center' }}>
+          <div style={{width: '50%', background: '#6BAA75', overflow: 'hidden',  padding: '0 20px', fontFamily:'Expressway', textAlign:'center' }}>
           <h1>Ingredients and Measures</h1>
           <table style={{ border: '1px solid black', margin: '20px auto', padding: '10x 60px'  }}>
           <thead>
@@ -146,7 +146,7 @@ const LandingPage = () => {
                 ))}
                 </tbody>
                 </table>
-                <button onClick={downloadArray} style={{ paddingTop: '20px', paddingBottom: '20px', width: '50%', marginLeft:'auto', marginRight:'auto', display:'block' , fontFamily:'Expressway'}}>Download Ingredients</button>
+                <button onClick={downloadArray} style={{ paddingTop: '20px', paddingBottom: '20px', width: '50%', marginLeft:'auto', marginRight:'auto', display:'block' , fontFamily:'Expressway', marginBottom:'20px'}}>Download Ingredients</button>
                           </div>
                         </div>
                       </section>
